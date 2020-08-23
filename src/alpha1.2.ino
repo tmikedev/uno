@@ -13,29 +13,29 @@ void setup()
 
 void loop()
 {
-  // Comments may not be accurate - Honest
+  // Corrected Comments 10:03AM 8/23/2020
   // Channel #1
-  digitalWrite(genPin, HIGH);   // sets the LED off
-  delay(750);                  // waits for a second
-  digitalWrite(genPin, LOW);   // sets the LED off
-  delay(500);                  // waits for a second
-  digitalWrite(genPin, HIGH);   // sets the LED off
-  delay(750);                  // waits for a second
-  digitalWrite(genPin, LOW);   // sets the LED off
+  digitalWrite(genPin, HIGH); // Sets Dyn. Channel 1 LED On
+  delay(750);                 
+  digitalWrite(genPin, LOW);  // Sets Dyn. Channel 1 LED Off
+  delay(500);                 
+  digitalWrite(genPin, HIGH); // Sets Dyn. Channel 1 LED On
+  delay(750);                 
+  digitalWrite(genPin, LOW);  // Sets Dyn. Channel 1 LED Off
   delay(1000);
   // End of Channel #1
   // Channel #2
-  digitalWrite(ledPin, HIGH);   // sets the LED off
-  delay(500);                  // waits for a second
-  digitalWrite(ledPin, LOW);   // sets the LED off
-  delay(500);                  // waits for a second
-  digitalWrite(ledPin, HIGH);   // sets the LED off
-  delay(500);                  // waits for a second
-  digitalWrite(ledPin, LOW);   // sets the LED off
-  delay(500);                  // waits for a second
-  digitalWrite(ledPin, HIGH);   // sets the LED off
-  delay(500);                  // waits for a second
-  digitalWrite(ledPin, LOW);   // sets the LED off
+  digitalWrite(ledPin, HIGH);  // Sets Dyn. Channel 1 LED On
+  delay(500);                  
+  digitalWrite(ledPin, LOW);   // Sets Dyn. Channel 1 LED Off
+  delay(500);                  
+  digitalWrite(ledPin, HIGH);  // Sets Dyn. Channel 1 LED On
+  delay(500);                  
+  digitalWrite(ledPin, LOW);   // Sets Dyn. Channel 1 LED Off
+  delay(500);                  
+  digitalWrite(ledPin, HIGH);  // Sets Dyn. Channel 1 LED On
+  delay(500);                  
+  digitalWrite(ledPin, LOW);   // Sets Dyn. Channel 1 LED Off
   delay(1000);
   // End of Channel #2
   
